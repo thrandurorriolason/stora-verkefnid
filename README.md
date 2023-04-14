@@ -6,7 +6,7 @@ Stóra verkefnið *Strætó Snákur*
 
 Clone:
 ```
-git clone https://github.com/your-username/stora-verkefnid.git
+git clone https://github.com/thrandurorriolason/stora-verkefnid.git
 ```
 
 Finna project directory:
