@@ -4,24 +4,29 @@ Stóra verkefnið *Strætó Snákur*
 
 ## Keyra leikinn
 
-Clone:
+1. Clone-a:
 ```
 git clone https://github.com/thrandurorriolason/stora-verkefnid.git
 ```
 
-Finna project directory:
+2. Navigate-a í project directoryið:
 ```
 cd stora-verkefnid
 ```
 
-Compile:
+3. Keyra "mvn clean javafx:jlink":
 ```
-javac Main.java
+mvn clean javafx:jlink
 ```
 
-Run:
+4. Navigate-a í target directoryið og finna snakur-th.zip fileið, opna það og fara í bin:
 ```
-java Main
+target/snakur-th/bin/
+```
+
+5. Þar á að vera snakur-main sem þið opnið og þá á leikurinn að byrja:
+```
+snakur-main
 ```
 
 
