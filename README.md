@@ -19,12 +19,15 @@ cd stora-verkefnid
 mvn clean javafx:jlink
 ```
 
-4. Navigate-a í target directoryið og finna snakur-th.zip fileið, opna það og fara í bin:
+4. Það býr til target folder sem geymir snakur-th.zip fileið, opna það og fara í bin:
 ```
-target/snakur-th/bin/
+.
+└── target
+    └── snake-th
+        └── bin
 ```
 
-5. Þar á að vera snakur-main sem þið opnið og þá á leikurinn að byrja:
+5. Í bin á að vera snakur-main sem þið opnið og þá á leikurinn að byrja:
 ```
 snakur-main
 ```
